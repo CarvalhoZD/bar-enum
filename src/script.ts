@@ -21,6 +21,19 @@ const select = showMenu()
 if (select == Drinks.drink1) {
     console.log('\nVocê escolheu Batidade de Variáveis!\n\n');
 }
+if (select == Drinks.drink2) {
+    console.log('\nVocê escolheu Lagoa TypeS!\n\n');
+}
+if (select == Drinks.drink3) {
+    console.log('\nVocê escolheu Gin Const!\n\n');
+}
+if (select == Drinks.drink4) {
+    console.log('\nVocê escolheu Console.Vinho!\n\n');
+}
+
+
+
+
 
 i++
 nDrinks [i]
@@ -28,3 +41,6 @@ nDrinks [i]
 } while (i < 2){
     
 }
+
+
+cliente.endInteraction();

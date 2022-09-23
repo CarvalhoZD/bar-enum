@@ -1,3 +1,8 @@
+interface NewCliente{
+     name: string;
+     age: number;
+}
+
 class Cliente {
     public name: string;
     public age: number;
@@ -7,13 +12,11 @@ class Cliente {
         this.age = age;
 }
 
-public getI (nome: string){
-    this.name;
-    console.log("O bar dos Devs agradece a sua presença, espero que não tenha travado");
-    
+  public endInteraction (){
+    return console.log(`O bar dos Devs agradece a sua presença, espero que não tenha travado`);
+  }
+
+   
 }
-}
 
-
-
-export { Cliente }
+export { Cliente };

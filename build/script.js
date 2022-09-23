@@ -17,4 +17,7 @@ do {
     i++;
     nDrinks[i];
 } while (i < 2);
-cliente.getI(name);
+{
+}
+cliente.getDrink();
+//console.log(cliente.getDrink);
