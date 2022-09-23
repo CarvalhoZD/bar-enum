@@ -4,20 +4,17 @@ import { HeavyCrash} from "./HeavyCrash"
 
 
 
-export class Vinho extends Drink implements SoftCrash, HeavyCrash {
+export class GinConst extends Drink implements SoftCrash, HeavyCrash {
 
     constructor ( teorAlcoolico: number){
         super (teorAlcoolico);
     }
-
-
-  public softCrash(): void {
+    public HeavyCrash(): void {
+        console.log('Você travou mais que windows 95! ');
+    }
+    public softCrash(): void {
       console.log('Você deu uma leve tradava ');
   }
-  public HeavyCrash(): void {
-    console.log('Você deu uma leve tradava ');
-}
+
 
 }
-
-

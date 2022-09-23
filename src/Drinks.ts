@@ -1,22 +1,16 @@
+export class Drink{
+ public teorAlcoolico: number;
 
 
-class Drink{
-
-    teorAlcoolico: number;
-
+constructor(teorAlcoolico: number) {
+    this.teorAlcoolico = teorAlcoolico;
 }
 
-
-function getCrash (teorAlcoolico : number){
-    return console.log('Você travou!');
-    
 }
-
 enum Drinks {
     drink1,
     drink2,
     drink3,
     drink4
 }
-
-export { Drinks }
+ export {Drinks}

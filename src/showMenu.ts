@@ -1,6 +1,8 @@
 import PromptSync = require('prompt-sync')
 import { Menu } from './Menu'
+import { Drink } from './Drinks';
 import { Drinks } from './Drinks';
+
 const prompt = PromptSync()
 
 function showMenu() {

@@ -6,7 +6,7 @@ var Cliente = /** @class */ (function () {
         this.name = name;
         this.age = age;
     }
-    Cliente.prototype.getDrink = function () {
+    Cliente.prototype.endInteraction = function () {
         return console.log("O bar dos Devs agradece a sua presen\u00E7a, espero que n\u00E3o tenha travado");
     };
     return Cliente;
