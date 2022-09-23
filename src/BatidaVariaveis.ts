@@ -1,6 +1,6 @@
 import { Drink } from "./Drinks";
 import { SoftCrash } from "./SoftCrash";
-import { HeavyCrash} from "./HeavyCrash"
+import { HeavyCrash} from "./HeavyCrash";
 
 
 

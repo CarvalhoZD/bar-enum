@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Drinks = exports.Drink = void 0;
+exports.nomeDrinks = exports.Drink = void 0;
 var Drink = /** @class */ (function () {
     function Drink(teorAlcoolico) {
         this.teorAlcoolico = teorAlcoolico;
@@ -8,11 +8,11 @@ var Drink = /** @class */ (function () {
     return Drink;
 }());
 exports.Drink = Drink;
-var Drinks;
-(function (Drinks) {
-    Drinks[Drinks["drink1"] = 0] = "drink1";
-    Drinks[Drinks["drink2"] = 1] = "drink2";
-    Drinks[Drinks["drink3"] = 2] = "drink3";
-    Drinks[Drinks["drink4"] = 3] = "drink4";
-})(Drinks || (Drinks = {}));
-exports.Drinks = Drinks;
+var nomeDrinks;
+(function (nomeDrinks) {
+    nomeDrinks[nomeDrinks["bDeVariaveis"] = 0] = "bDeVariaveis";
+    nomeDrinks[nomeDrinks["lagoaTypeS"] = 1] = "lagoaTypeS";
+    nomeDrinks[nomeDrinks["ginConst"] = 2] = "ginConst";
+    nomeDrinks[nomeDrinks["cVinho"] = 3] = "cVinho";
+})(nomeDrinks || (nomeDrinks = {}));
+exports.nomeDrinks = nomeDrinks;

@@ -12,8 +12,8 @@ class Cliente {
         this.age = age;
 }
 
-  public endInteraction (){
-    return console.log(`O bar dos Devs agradece a sua presença, espero que não tenha travado`);
+  public withdrawDrink (){
+    return console.log(`Você retirou os dois drinks. O bar dos Devs agradece a sua presença, espero que não tenha travado!\n\n`);
   }
 
    

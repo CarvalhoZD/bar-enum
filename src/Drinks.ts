@@ -7,10 +7,10 @@ constructor(teorAlcoolico: number) {
 }
 
 }
-enum Drinks {
-    drink1,
-    drink2,
-    drink3,
-    drink4
+enum nomeDrinks {
+    bDeVariaveis,
+    lagoaTypeS,
+    ginConst,
+    cVinho
 }
- export {Drinks}
+ export { nomeDrinks }

@@ -14,16 +14,16 @@ function showMenu() {
     var pick;
     switch (option) {
         case '1':
-            pick = Drinks_1.Drinks.drink1;
+            pick = Drinks_1.nomeDrinks.bDeVariaveis;
             break;
         case '2':
-            pick = Drinks_1.Drinks.drink2;
+            pick = Drinks_1.nomeDrinks.lagoaTypeS;
             break;
         case '3':
-            pick = Drinks_1.Drinks.drink3;
+            pick = Drinks_1.nomeDrinks.ginConst;
             break;
         case '4':
-            pick = Drinks_1.Drinks.drink4;
+            pick = Drinks_1.nomeDrinks.cVinho;
             break;
     }
     return pick;

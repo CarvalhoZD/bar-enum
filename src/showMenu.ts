@@ -1,9 +1,8 @@
-import PromptSync = require('prompt-sync')
-import { Menu } from './Menu'
+import PromptSync = require('prompt-sync');
 import { Drink } from './Drinks';
-import { Drinks } from './Drinks';
+import { nomeDrinks } from './Drinks';
 
-const prompt = PromptSync()
+const prompt = PromptSync();
 
 function showMenu() {
 
@@ -15,20 +14,20 @@ function showMenu() {
 
     let option =  prompt ('Escolha seu Drink: ');
 
-    let pick: Drinks
+    let pick: nomeDrinks
 
     switch (option) {
         case '1':
-            pick = Drinks.drink1
-            break
+            pick = nomeDrinks.bDeVariaveis
+            break;
         case '2':
-            pick = Drinks.drink2
-            break
+            pick = nomeDrinks.lagoaTypeS
+            break;
         case '3':
-            pick = Drinks.drink3
-            break
+            pick = nomeDrinks.ginConst
+            break;
         case '4':
-            pick = Drinks.drink4
+            pick = nomeDrinks.cVinho
             break;  
     }
     return pick;
