@@ -32,7 +32,7 @@ do {
     if ( cliente.age >= 18) {
         console.log ('Olá Dev! Temos um catálogo de drinks com e sem álcool disponível para você!');
     } else {
-        console.log('Boa noite pequene padawan!  Vimos que você não tem idade para consumir nossas cortesias alcólicas. Não tem problema, solicite um atendente e ele te dirá as melhores opções sem álcool para consumo. Seja bem vinde e até breve!\n\n');
+        console.log('\n\nBoa noite pequene padawan!  Vimos que você não tem idade para consumir nossas cortesias alcólicas. Não tem problema, solicite um atendente e ele te dirá as melhores opções sem álcool para consumo. Seja bem vinde e até breve!\n\n');
         break;
     }
 
